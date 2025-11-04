@@ -48,7 +48,10 @@ export const useTaskStore = create<TaskState & TaskActions>()(
       setFilter: filter => set({ filter })
     }),
     {
-      name: 'tasks-storage'
+      name: 'tasks-storage',
+      partialize: (state) => ({
+        tasks: state.tasks
+      })
     }
   )
 );

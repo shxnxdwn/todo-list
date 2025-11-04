@@ -34,6 +34,12 @@ export const useEditTask = (props: UseEditTaskParams) => {
     setEditingTaskId(null);
   }, [taskId, title, editTask, isSaveDisabled, setEditingTaskId]);
 
+  useEffect(() => {
+    if (!isEditing && initialTitle === '' && title === '') {
+      removeTask(taskId);
+    }
+  }, [isEditing, initialTitle, title, taskId, removeTask]);
+
   const handleCancel = useCallback(() => {
     if (initialTitle === '') {
       removeTask(taskId);
