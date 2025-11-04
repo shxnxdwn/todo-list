@@ -1,0 +1,23 @@
+:root {
+  --font-family-main: Roboto, Arial, sans-serif;
+
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #242424;
+  --bg-tertiary-hover: #333333;
+
+  --text-primary: rgba(255, 255, 255, 0.95);
+  --text-secondary: rgba(255, 255, 255, 0.6);
+  --text-completed: rgba(255, 255, 255, 0.4);
+
+  --accent-gradient: linear-gradient(250deg, #007cf0 0%, #00dfd8 100%);
+  --accent-primary: #007cf0;
+  --accent--secondary: #00dfd8;
+  --color-danger: #b00020;
+  --color-danger-hover: #c51130;
+
+  --border-color: #444444;
+  --button-color-hover: #f0f0f0;
+
+  --border-radius: 8px;
+  --container-width: 1200px;
+}

@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: var(--bg-secondary);
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+  width: 100%;
+  transition: background-color 0.2s ease;
+}
+
+.card:hover {
+  background-color: var(--bg-tertiary-hover);
+}
+
+.card.completed {
+  background-color: var(--bg-primary);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  min-width: 0;
+  transition: opacity 0.2s ease;
+}
+
+.card.completed .content {
+  opacity: 0.5;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 16px;
+}

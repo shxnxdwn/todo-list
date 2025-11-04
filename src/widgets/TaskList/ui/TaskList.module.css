@@ -1,0 +1,12 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.emptyMessage {
+  color: var(--text-secondary);
+  text-align: center;
+  margin-top: 40px;
+}

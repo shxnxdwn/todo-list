@@ -1,0 +1,8 @@
+.removeButton:hover {
+  background-color: var(--color-danger);
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
