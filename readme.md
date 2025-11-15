@@ -1,4 +1,4 @@
-# TodoList
+# Todo List
 
 Простое приложение для управления задачами, построенное на Vite | React | Zustand.
 
